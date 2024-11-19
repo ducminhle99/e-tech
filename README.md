@@ -14,7 +14,7 @@ Since the PingFang SC font (which is exclusive to Apple) could not be found, the
 
 ## Screen capture
 desktop
-![desktop](public\images\screencapture.png)
+![desktop](public/images/screencapture.png)
 
 mobile
-![mobile](public\images\screencaptureMb.png)
+![mobile](public/images/screencaptureMb.png)
