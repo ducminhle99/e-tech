@@ -1,0 +1,53 @@
+.custom-dots > li {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.custom-dots > li > button {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 100% !important;
+}
+
+.custom-dots-2 > li > button {
+  width: 8px !important;
+  height: 8px !important;
+  background: gray !important;
+  border-radius: 100% !important;
+}
+.custom-dots .slick-active > button::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+.custom-dots-2 .slick-active > button::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid gray;
+  border-radius: 100%;
+}
+
+.custom-select .ant-select-selector::before {
+  content: 'AZ';
+  position: absolute;
+  right: 24px;
+  top: 8px;
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.custom-carousel .slick-track {
+  display: flex !important;
+  gap: 1rem !important;
+  margin-left: -4px;
+}
